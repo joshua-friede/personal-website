@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import PageTitle from "../components/pageTitle";
+import PageTitle from "../components/PageTitle";
 import SEO from "../components/SEO";
 
 const Home: React.FC = (props) => {
