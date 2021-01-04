@@ -1,11 +1,12 @@
 import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
+import PageTitle from "../components/PageTitle";
 
 const NotFoundPage: React.FC = () => {
   return (
     <Layout>
-      <h1>Not Found</h1>
+      <PageTitle text="Not Found" />
       <p>
         <Link to="/">Go home</Link>
       </p>
